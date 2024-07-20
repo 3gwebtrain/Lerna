@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "esnext",
+    "noEmit": false,
+    "outDir": "build",
+    "target": "es2017",
+    "isolatedModules": true
+  },
+  "include": ["src"]
+}
